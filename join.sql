@@ -9,6 +9,18 @@ inner join countries ct
 where   reg.region_name = 'Asia'
 ;
 
+-- several joins
+select  dep.department_name,
+        emp.first_name,
+        emp.last_name,
+        loc.city,
+        loc.street_address
+from    departments dep
+inner join employees emp
+        on dep.manager_id = emp.employee_id
+inner join locations loc
+        on loc.location_id = dep.location_id
+;
 
 -- 1
 select  ct.country_id,
