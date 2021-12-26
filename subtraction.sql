@@ -1,3 +1,4 @@
+-- minus
 select  country_id,
         country_name,
         region_id
