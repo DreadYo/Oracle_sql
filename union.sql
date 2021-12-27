@@ -1,3 +1,7 @@
+-- lesson 6
+-- union all
+-- union
+
 select * from dual;
 
 select count(1) as cnt, txt from(
