@@ -1,3 +1,4 @@
+-- lesson 6
 -- minus
 select  country_id,
         country_name,
