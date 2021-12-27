@@ -1,3 +1,4 @@
+-- lesson 6
 -- inner join   or
 -- join
 select  ct.country_id,
