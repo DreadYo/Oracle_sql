@@ -51,8 +51,8 @@ create table employee_cars
 (
     employee_id     number,
     car_number      varchar2(16),
-    car_maker      varchar2(32),
-    car_model      varchar2(64)
+    car_maker       varchar2(32),
+    car_model       varchar2(64)
 );
 
 
