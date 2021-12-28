@@ -11,6 +11,7 @@ DDL (Data Definition Language):
  - DROP
  - ALTER
  - TRUNCATE
+ - COMMENT
  
 DCL (Data Control Language):
  - GRANT
