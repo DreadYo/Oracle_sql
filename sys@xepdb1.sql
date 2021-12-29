@@ -11,3 +11,8 @@ grant create view to accountant;
 
 -- give permissions to create tables for schema <accountant>
 grant create table to accountant;
+
+
+grant create sequence to security;
+
+grant select on hr.employees to security with grant option;
