@@ -14,3 +14,4 @@ from    hr.accounts emp;
 
 
 select * from accountant.accounts_v;
+
