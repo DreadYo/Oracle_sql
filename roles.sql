@@ -16,6 +16,23 @@ alter user management
 -- give access rights user
 grant create session to management;
 
+-- give permissions to select data from view to accountant
+grant select on hr.countries_extended_v to accountant;
+
+-- give permission to user <security> to create views in <security> schema using table <employees> from schema <hr>
+grant select on hr.employees to security with grant option;
+
+-- cancel permission to select data from view <hr.countries_extended_v> from user <accountant>
+revoke select on hr.countries_extended_v from accountant;
+
+-- give permissions to create view for schema <security>
+grant create view to security;
+
+-- give permissions to create tables for schema <security>
+grant create table to security;
+
+
+
 
 
 select USER,SYS_CONTEXT ('USERENV', 'SESSION_USER') from dual;
