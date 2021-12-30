@@ -67,4 +67,3 @@ inner join security.duty dut
         on emp.employee_id = dut.employee_id   
 ;
 
-
