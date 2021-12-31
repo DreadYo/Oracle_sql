@@ -4,6 +4,8 @@ select * from hr.countries;
 
 select * from hr.accounts;
 
+select * from hr.employees;
+
 create or replace view accounts_v
 as
 select  emp.employee_id,
