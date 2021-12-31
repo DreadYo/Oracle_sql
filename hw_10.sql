@@ -65,7 +65,6 @@ create table operations
     clients_id      number not null,
     card_id         number not null,
     primary key (id),
-    foreign key (clients_id) references clients (id),
     foreign key (card_id) references cards (id)
 );
 
